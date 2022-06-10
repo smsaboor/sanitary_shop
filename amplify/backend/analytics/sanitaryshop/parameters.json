@@ -1,0 +1,21 @@
+{
+    "appName": "sanitaryshop",
+    "roleName": "pinpointLambdaRole9a7e4c70",
+    "cloudformationPolicyName": "cloudformationPolicy9a7e4c70",
+    "cloudWatchPolicyName": "cloudWatchPolicy9a7e4c70",
+    "pinpointPolicyName": "pinpointPolicy9a7e4c70",
+    "authPolicyName": "pinpoint_amplify_9a7e4c70",
+    "unauthPolicyName": "pinpoint_amplify_9a7e4c70",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

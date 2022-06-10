@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sanitaryshop-dev-184313-authRole",
+      "UnauthRoleArn": "arn:aws:iam::752185670720:role/amplify-sanitaryshop-dev-184313-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::752185670720:role/amplify-sanitaryshop-dev-184313-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-sanitaryshop-dev-184313-deployment",
+      "UnauthRoleName": "amplify-sanitaryshop-dev-184313-unauthRole",
+      "StackName": "amplify-sanitaryshop-dev-184313",
+      "StackId": "arn:aws:cloudformation:us-east-1:752185670720:stack/amplify-sanitaryshop-dev-184313/18060cd0-e8bf-11ec-b99a-0e5bcf20e513",
+      "AmplifyAppId": "dmm4exalkptm9"
+    },
+    "categories": {
+      "auth": {
+        "sanitaryshopa5634f98": {},
+        "true": {}
+      }
+    }
+  }
+}
